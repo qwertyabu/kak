@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+  background-color:  rgb(12, 19, 56);
+  height: 64px;
+  display: flex;
+  align-items: center;
+  font-family: "Roboto", serif;
+}
+.nav_drop{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.nav_drop h1{
+    color: white;
+    font-family: "Poppins", serif;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+}
+.dropbtn{
+    background: transparent;
+    border: transparent;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #232028;
+    z-index: 1;
+    border-radius: 7px;
+    width: 160px;
+    padding: 15px;
+    box-shadow: 2px 3px 5px 5px white;
+}
+.dropdown_content a{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.dropdown_content a:hover{
+    background-color: #BFAFF2;
+}
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+.regist{
+    display: flex;
+    gap: 50px;
+    color: white;
+    align-items: center;
+}
+.enter{
+    background-color: #BFAFF2;
+    width: 175px;
+    height: 50px;
+    color: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", serif;
+}
+
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box_one{
+    width: 325px;
+    height: 532px;
+    text-align: center;
+    margin-top: 60px;
+}
+.write{
+    background-color: #232028;
+    border-radius: 20px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+
+} 
+.photo{
+    position: relative;
+    top: 10px;
+    z-index: 999999999999999999;
+}
+.nav_ul{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    color: white;
+}
+.fot_nav{
+    display: flex;
+    justify-content: center;
+    gap: 900px;
+}
+.red{
+    color: white;
+}
